@@ -1,8 +1,13 @@
-{"type": "module",
-  "dependencies": {
-    "install": "^0.13.0"
+{
+  "name": "api-futebol",
+  "version": "1.0.0",
+  "description": "API simples de futebol com times em Node.js básico",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.14"
-  }
+  "keywords": ["futebol", "times", "node"],
+  "author": "Samuel Silvany",
+  "license": "MIT"
 }
